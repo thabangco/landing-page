@@ -1,0 +1,118 @@
+.navbar {
+  width: 100vw;
+  background-color: white;
+  font-family: "Work Sans";
+  @media (min-width: 1080px) {
+    height: 65px;
+  }
+  .navbar-brand {
+    .logo {
+      height: 5rem;
+      width: 5rem;
+      @media only screen and (min-width: 1080px) {
+        margin-left: 5.25rem;
+        position: absolute;
+        top: 0;
+        border: 2px white solid;
+        height: 5rem;
+        width: 5rem;
+        font-size: 1rem;
+      }
+      @media only screen and (min-width: 1366px) {
+        margin-left: 10.9375rem;
+        height: 5.5rem;
+        width: 5.5rem;
+      }
+      @media only screen and (min-width: 1920px) {
+        margin-left: 23.25rem;
+        height: 6rem;
+        width: 6rem;
+      }
+    }
+
+    /* End of the NavBrand */
+  }
+  .burger {
+    display: none;
+    @media (min-width: 1080px) {
+      position: relative;
+      display: block;
+      color: #232323;
+      text-decoration: none;
+      left: -108px;
+    }
+    @media (min-width: 1366px) {
+      display: none;
+    }
+  }
+  .search {
+    @media (min-width: 1080px) {
+      position: relative;
+      display: block;
+      color: #232323;
+      float: right;
+      text-decoration: none;
+      margin-left: 661px;
+    }
+    @media (min-width: 1366px) {
+      left: -273px;
+      margin-left: 0px;
+    }
+    @media (min-width: 1920px) {
+      left: -541px;
+    }
+  }
+  @media (min-width: 1366px) {
+    height: 4rem;
+  }
+  @media only screen and (min-width: 1920px) {
+    height: 5rem;
+  }
+}
+.progress-status {
+  width: 100vw;
+  background-color: #232323;
+  border-radius: 8px;
+  .bar {
+    width: 96px;
+    height: 8px;
+    background-color: #ffcc00;
+  }
+}
+.links {
+  display: none;
+  @media (min-width: 1366px) {
+    display: block;
+    font-size: 16px;
+    margin-left: -243px;
+  }
+  @media (min-width: 1920px) {
+    display: block;
+    font-size: 16px;
+    margin-left: -382px;
+  }
+  .link1 {
+    margin-right: 40px;
+    width: 10%;
+    color: #232323;
+    text-decoration: none;
+  }
+  .link2 {
+    margin-right: 40px;
+    width: 120px;
+    color: #232323;
+    text-decoration: none;
+  }
+  .link3 {
+    margin-right: 40px;
+    width: 140px;
+    color: #232323;
+    text-decoration: none;
+  }
+}
+.links > a {
+  font-weight: 500;
+  &:hover {
+    color: #ffcc00;
+  }
+}

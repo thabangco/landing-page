@@ -1,0 +1,41 @@
+<div class="wrapper container d-flex justify-content-center">
+  <swiper
+    [config]="config"
+    [(index)]="index"
+    (indexChange)="indexChange(index)"
+  >
+    <div
+      *ngFor="let item of carousel; let i"
+      class="swiper-slide cell d-flex justify-content-center align-items-center"
+    >
+      <div class="item-image">
+        <i class="bi bi-image-alt display-3"></i>
+      </div>
+      <div class="item-title">{{ item.title }}</div>
+      <div class="item-button">
+        <a>{{ item.action }} <i class="bi bi-chevron-right ml-1"></i></a>
+      </div>
+    </div>
+  </swiper>
+</div>
+
+<div class="row">
+  <div class="d-flex justify-content-center container">
+    <div class="col-2">
+      <div class="swiper-button-prev custom-swiper-button-prev">
+        <span class="arrow d-flex justify-content-center align-items-center p-3"
+          ><i class="bi bi-chevron-left"></i
+        ></span>
+      </div>
+    </div>
+
+    <div class="col-5"></div>
+    <div class="col-2">
+      <div class="swiper-button-next custom-swiper-button-next">
+        <span class="arrow d-flex justify-content-center align-items-center p-3"
+          ><i class="bi bi-chevron-right"></i
+        ></span>
+      </div>
+    </div>
+  </div>
+</div>
