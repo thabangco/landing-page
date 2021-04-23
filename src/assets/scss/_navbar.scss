@@ -2,13 +2,17 @@
   width: 100vw;
   background-color: white;
   font-family: "Work Sans";
+  height: 65px;
+
   @media (min-width: 1080px) {
     height: 65px;
   }
+
   .navbar-brand {
     .logo {
       height: 5rem;
       width: 5rem;
+
       @media only screen and (min-width: 1080px) {
         margin-left: 5.25rem;
         position: absolute;
@@ -18,11 +22,13 @@
         width: 5rem;
         font-size: 1rem;
       }
+
       @media only screen and (min-width: 1366px) {
         margin-left: 10.9375rem;
         height: 5.5rem;
         width: 5.5rem;
       }
+
       @media only screen and (min-width: 1920px) {
         margin-left: 23.25rem;
         height: 6rem;
@@ -86,23 +92,27 @@
     font-size: 16px;
     margin-left: -243px;
   }
+
   @media (min-width: 1920px) {
     display: block;
     font-size: 16px;
     margin-left: -382px;
   }
+
   .link1 {
     margin-right: 40px;
     width: 10%;
     color: #232323;
     text-decoration: none;
   }
+
   .link2 {
     margin-right: 40px;
     width: 120px;
     color: #232323;
     text-decoration: none;
   }
+
   .link3 {
     margin-right: 40px;
     width: 140px;
@@ -110,6 +120,7 @@
     text-decoration: none;
   }
 }
+
 .links > a {
   font-weight: 500;
   &:hover {

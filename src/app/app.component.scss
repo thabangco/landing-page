@@ -1,0 +1,11 @@
+.vertical-container,
+.horizontal-container {
+  min-height: 500px !important;
+  margin-left: 15px !important;
+}
+
+.mt-sm-9 {
+  @media (min-width: 320px) {
+    margin-top: 8rem !important;
+  }
+}
